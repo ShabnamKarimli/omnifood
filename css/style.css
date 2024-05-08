@@ -1,0 +1,891 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .body{
+            color: #333333;
+            min-height: 100vh;            
+           
+        }
+        .omnifood{
+            background-image:linear-gradient(rgba(34, 34, 34, 0.05), rgba(34, 34, 34, 0.05))
+        }
+        .hero-section{
+            background-color: #FDF2E9;
+        }
+       
+
+        .head{
+            width: 100%;       
+            margin: auto;    
+            display: flex;
+            justify-content: space-between;
+            padding: 35px 3% 40px 3%;            
+            background-color: #FDF2E9;
+        }
+        .omni-logo{
+            height: 1.4rem;
+        }
+        nav{
+            display: flex;
+            align-items: center;
+        }
+        .nav-list{
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: 2.8rem;
+            
+        }
+        
+        .nav-link:link,
+        .nav-link:visited{
+            text-decoration: none;
+            color: #393737 !important;  
+            font-size: 1.1rem; 
+            line-height: 1;
+            font-weight: 600;
+            font-family: 'Rubik', sans-serif;
+
+            
+        
+        }
+        .nav-link:active,
+        .nav-link:hover{
+            color: #E67E22 !important;
+
+        }
+        .nav-link.last-link {
+            
+            padding: 10px;
+            background-color: #E67E22;
+            color: white !important;
+            border-radius: 9px;
+        }
+        main{
+            margin: auto;
+        }
+        .container{
+            width: 84%;
+            margin: auto;
+        }
+        .main-div{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 110px;
+            margin-top: 35px ; 
+            padding-bottom: 100px;
+            font-family:'Rubik' , sans-serif;
+        }
+
+        .header-bar .navbar-head{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+}
+
+.header-bar{
+    width: 100%;
+    height: 100vh;
+    padding-top:2rem;
+    display: none;
+    
+
+}
+header .fa-solid{
+    font-size: 30px;
+    display: none;
+    margin-right: 14px;
+}
+
+
+.header-bar a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+}
+.header-bar li{
+    background-color: #cf711f;
+    padding: 1rem;
+    margin: 20px 0;
+    text-align: center;
+    width: 100%;  
+    border-radius: 5px;  
+    font-size: 20px;
+    }
+       
+        .left-side{
+            padding-top: 30px;
+        }
+        .left-side h1{
+            font-size: 3.23rem;
+            line-height: 1.05;
+            margin-bottom: 2.3rem;
+            color: #333;
+            letter-spacing: -0,5px;
+            font-weight: 700;
+        }
+        .left-side .text{
+            font-size: 1.32rem;
+            line-height: 1.3;
+            color: #555;
+            font-weight: 400;
+            letter-spacing: 0;
+            margin-bottom: 3.5rem;
+
+        }
+         .btn{
+            padding: 15px 30px;
+            border-radius: 10px;
+            
+            
+        }
+        .btn-link,
+        .btn-link:link,
+        .btn-link:active{
+            display: inline-block;
+            text-decoration: none;
+            font-size: 20px;
+            font-family: 'Rubik', sans-serif;
+            font-weight: 500;
+            letter-spacing: 1;
+        }
+        .hero-btn-start:hover  {
+            background-color: #cf711f;
+            border: 3px solid #cf711f;
+
+
+        }
+        .left-side .hero-btn-learn:hover  {
+            background-color: #FDF2E9;
+
+        }
+        
+        .hero-btn-start {
+            background-color: #E67E22;
+            border: 3px solid #E67E22;
+            margin-right: 15px;
+        }
+        .hero-btn-learn{
+            background-color:white;
+            border: 3px solid white;
+        
+        }
+         .hero-btn-start .btn-link{
+            color: #fff;
+        }
+        .left-side .hero-btn-learn .btn-link{
+            color:#555 ;
+        }
+        .right-side img{
+            width: 100%;
+        }
+        .delivered-meals{
+            margin-top: 65px;
+        }
+        .hero-customers , .delivered-meals{
+            display: flex;
+            align-items: center;
+
+        }
+        .hero-customers img{
+            height: 45px;
+            border-radius: 50%;
+            border: 3px solid white;
+            margin-right: -1rem;
+        }
+        /* How SECTION */
+        /* .container-80{
+            width: 75%;
+            margin: auto;
+        } */
+        .future-section{
+            background-image:linear-gradient(rgba(34, 34, 34, 0), rgba(34, 34, 34, 0))
+
+        }
+        .h4-future{
+            text-align: center;
+            color: #888;
+            padding: 45px 0 25px 0;
+            font-family:'Rubik', sans-serif;
+            letter-spacing: 0.8px;
+        }
+        .logos{
+            display: flex;
+            justify-content: space-around;
+            margin: 0 100px;      
+
+        }
+        .logos img{
+            height: 2rem;
+            filter: brightness(0);
+            opacity: 50%;  
+        }
+        .how{
+            font-family:'Rubik', sans-serif;
+            font-weight: 400;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows:repeat(4,1fr);
+            column-gap: 80px;
+            row-gap: 100px;
+            padding: 0 10%;
+            background-image:linear-gradient(rgba(34, 34, 34, 0), rgba(34, 34, 34, 0))
+            
+}
+
+         
+        .how-title{
+            grid-column: 1/-1;
+        }
+        .h4-how{
+            color: #cf711f;
+            margin: 140px 0 16px 0;
+        }
+        .h1-dose{
+            font-size: 45px;
+        }
+
+        .how img{
+        width: 35%;
+        }
+        .how .step{
+        color: #ddd;
+        font-size: 100px;
+        font-weight: 600;
+        }
+        .step-title{
+            font-size: 28px;
+        }
+        .step-text{
+            margin: 10px 0 35px 0;
+            font-size: 15px;
+            font-family: 'Rubik';
+            letter-spacing: 1px;
+            line-height: 1.8;
+            color: #555;
+            font-weight: 400;
+        }
+        .step-img1,.step-img2,.step-img3{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        .bg-circle{
+            width: 60%;
+            height: 300px;
+            background-color: #fae5d3;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            border: 34px solid #fdf2e9;;
+            border-radius: 50%;
+            z-index: -2;
+
+        }
+
+        /* SCTION MEAL */
+        .meal-section{
+            background-image:linear-gradient(rgba(34, 34, 34, 0), rgba(34, 34, 34, 0))
+
+         }
+         .meal{
+            width: 70%;
+            margin: auto;
+         }
+        .meal-header{
+            text-align: center;
+        }
+        .meal .meal-header h4{
+            color: #cf711f;
+            font-family: 'Rubik', sans-serif;
+            font-weight: 500;
+            letter-spacing: 1.5px;
+        }
+        .meal .meal-header h1{
+            font-family: 'Rubik', sans-serif;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            font-size: 40px;
+            color: #333;
+            margin:1rem 0 5rem 0;
+        }
+        .meal-body{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            column-gap: 70px;
+            font-family: 'Rubik' , sans-serif;
+        }
+        .vegeterian, .vegan{
+            background-color: white;
+            border-radius: 10px ;
+
+        }
+        .meal-body ul{
+            list-style: none;
+            display: flex;
+            color: #555;
+            letter-spacing: 0.8px;
+            margin-bottom: 4px;
+        }
+        .meal-body ul li{
+            margin-bottom: 20px;
+            font-size: 20px;
+           
+        }
+        .meal-body ul li:first-child {
+            margin-right: 20px;
+            color: #E67E22;
+        }
+        .meal img{
+            width: 100%;
+            border-radius: 10px 10px 0 0;
+            margin-bottom: 30px;
+        }
+        .meal1-content , .meal2-content{
+            margin: 0 0 30px 40px;
+        
+        }
+        .meal1-content h6{
+            letter-spacing: 0.8px;
+            font-weight: 500;
+            background-color: rgb(24, 184, 98);
+            display: inline;
+            border-radius: 19px;
+            padding: 4px 8px;
+            margin-top: 20px;
+        }
+        .meal1-content h2, .meal2-content h2{
+            color: #333;
+            margin: 20px 0;
+        }
+        .meal1-content strong , .meal2-content strong{
+            font-weight: 500;
+        }
+        .meal2-content .vegan ,.meal2-content .paleo{
+            letter-spacing: 0.8px;
+            font-weight: 500;
+            display: inline;
+            border-radius: 19px;
+            padding: 4px 8px;
+        }
+        .meal2-content .vegan{
+            background-color: chartreuse;
+        }
+        .meal2-content .paleo{
+            background-color: #f29a4d;
+        }
+        .vegan-and-paleo{
+            display: flex;
+            gap: 5px;
+
+        }
+        .diet h1{
+            font-size: 32px;
+            margin-bottom: 30px;
+            color: #333;
+        }
+        .meal-recipes{
+            text-align: center;
+            margin: 40px;
+            font-family: 'Rubik',sans-serif;
+        }
+        .meal-recipes .recipes{
+            text-decoration: none;
+            color:#cf711f ;
+            font-size:20px ;
+            border-bottom: 2px solid #cf711f;
+            padding-bottom: 3px;
+        }
+/* TESTIMONIAL SECTION */
+.testimonials{
+    background-color: #FDF2E9;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 5rem;
+    font-family: 'Rubik', sans-serif;
+    padding:2rem 0 2rem 8% ;
+}
+.testimonials .test{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 79px;
+    row-gap: 40px;
+
+}
+
+
+.testimonials .try-it{
+    grid-column: 1/-1;
+    margin-bottom: 2rem;
+    
+}
+.testimonials .try-it h4{
+    letter-spacing: 0.8px;
+    color: #E67E22;
+    font-weight: 500;
+    margin: 4rem 0 1rem 0;
+}
+.testimonials .try-it h1{
+    font-size: 45px;
+    color: #333;
+
+}
+.testimonials .feedback img{
+    width: 20%;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+.testimonials .feedback .message{
+    color: #555;
+    font-size: 17px;
+    letter-spacing: 0.8px;
+    line-height: 30px;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+.testimonials .feedback .name{
+    color: #6f6f6f;;
+}
+
+.testimonials .gallery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 15px;
+    column-gap: 15px;
+    margin-top: 1rem;
+}
+.testimonials .gallery img{
+    width: 100%;
+    transition: transform 0.4s;
+}
+.testimonials .gallery img:hover{
+    transform: scale(1.1);
+}
+.testimonials .gallery >div{
+    overflow: hidden;
+    position: relative;
+}
+
+.pricing{
+            font-family:'Rubik', sans-serif;
+            font-weight: 400;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows:repeat(2,auto);
+            column-gap: 75px;
+            row-gap: 100px;
+            padding: 0 10%;
+            background-image:linear-gradient(rgba(34, 34, 34, 0), rgba(34, 34, 34, 0))
+
+            
+}
+            
+        .price-title{
+            grid-column: 1/-1;
+        }
+        .h4-price{
+            color: #cf711f;
+            margin: 100px 0 16px 0;
+        }
+        .h1-eating{
+            font-size: 45px;
+        }
+        
+        .pricing .starter {
+            width: 75%;
+            margin-left: 9rem;
+            border: 2px solid #f1e2d6eb;
+            border-radius: 10px;
+
+        }
+        
+        .pricing .starter .starter-title{
+            text-align: center;
+        }
+        .pricing .starter-title h1:first-child{
+            letter-spacing: 0.8px;
+            color: #cf711f;
+            margin: 2rem 0;
+        }
+        .pricing .starter-title  i:nth-child(2){
+            font-size: 25px;
+            color: #393737;
+        }
+        .pricing .starter-title  .number{
+            font-size: 50px;
+            color: #393737;
+        }
+        .pricing .starter-title p, .starter-title i{
+            color: #555;
+            margin: 0.3rem 0 1.5rem 0;
+        }
+        .pricing .starter ul{
+            display: flex;
+            list-style: none;
+            margin-left: 60px;
+        }
+        .starter ul li{
+            margin-bottom: 20px;
+            font-size: 18px;
+            color:#4e4c44 ;
+            letter-spacing: 0.5px;
+           
+        }
+        .starter ul li:first-child {
+            margin-right: 20px;
+            color: #E67E22;
+            font-size: 25px;
+        }
+        
+        .complate{
+            margin-left: 0 !important;
+            background-color: #f5ebe3; ;
+            border: none !important;
+            position: relative;
+            overflow: hidden;
+        }
+        .complate ::after{
+            content: "Best value";
+            position: absolute;
+            top: 4%;
+            right: -10%;
+            text-transform: uppercase;
+            font-size: 0.7rem;
+            font-weight: 700;
+            color: #333;
+            background-color: #ffd43b;
+            padding: 0.5rem 3rem;
+            transform: rotate(45deg);
+        }
+        .button-div{
+            display: flex;
+            justify-content: center; 
+            margin: 2.5rem 0;       
+        }
+        .pricing-foot{
+            grid-column: 1/-1;   
+            width: 95%;
+            margin: auto;
+            
+        }
+        .pricing-foot .block{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(2,auto);
+            column-gap: 50px;
+        }
+        .pricing .taxes{
+            grid-column: 1/-1;
+        }
+        .pricing .block{
+            display: flex;     
+            grid-column: 1/-1;  
+            margin: 6rem 0; 
+        }
+        .pricing-foot p:first-child{
+            color: #4e4c44;
+            text-align: center;
+        }
+        .pricing-foot i{
+            color: #cf711f;
+            background-color: #f4e0d1eb;
+            font-size: 30px;
+            width: 60px; 
+            height: 60px; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;     
+        }
+        .pricing h1{
+            font-size: 24px;
+            color: #292929;
+            margin: 20px 0;
+        }
+        .pricing-foot p{
+            color: #555;
+            line-height: 1.7;
+            letter-spacing: 0.8px;
+        }
+        
+        .get-meal{
+            padding-bottom: 9rem;
+            
+        }
+        .get{
+            width: 80%;
+            background-color: green;
+            margin: auto;
+            font-family: 'Rubik',sans-serif;
+            
+
+            display: grid;
+            grid-template-columns: 2fr 1fr;   
+            box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+            border-radius: 10px;
+            background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+            overflow: hidden;
+        }
+        
+
+        .get-meal .get-text{
+            padding-left: 4rem;
+        }
+        .get-meal .get-text h1{
+            font-size: 40px;
+            margin: 3rem 0 2rem 0;
+            color: #292929;
+
+        }
+        .get-meal .get-text p{
+            letter-spacing: 1px;
+            line-height: 2;
+            margin-bottom: 3rem;
+            width: 90%;
+        }
+        .get-meal .get-text .contact{
+            width: 95%;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(2,auto);
+            margin-bottom: 1.5rem;
+            
+        }
+        .get-meal .get-text label{
+            font-family: 'Rubik',sans-serif;
+            font-weight: 500;
+            color: #333;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        .get-meal .get-text .contact .input{
+            height: 45px;
+            width: 300px;
+            border: 0;
+            border-radius: 7px;
+            padding-left: 10px;
+            font-size: 18px;
+
+        }
+        .get-meal .get-text .contact .btn{
+            background-color:#45260a;
+            color: white;
+            font-weight: 700;
+            font-size: 20px;
+            padding: 10px;
+            margin-top: 30px;
+            
+        }
+        .get-meal .get-text input::placeholder{
+            color: #918f8f;
+            font-size: 17px;
+            font-family: 'Rubik';
+            letter-spacing: 0.8px;
+        }
+
+        /* Footer */
+        .omnifood-footer{
+            border-top: 1px solid #e1dcdc;
+            padding: 7rem 10rem 10rem 10rem;
+            display: grid;
+            grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+            column-gap: 5rem;
+            font-family: 'Rubik', sans-serif;
+            color: #555;
+            letter-spacing: 0.3px;
+            
+        }
+
+            
+
+        .omnifood-footer .media-logos{
+            display: grid;
+            grid-template-columns: 0.5fr 0.5fr 1.5fr;
+            margin: 2rem 0 3rem 0;
+        }
+        .omnifood-footer  .media-logos a{
+        font-size: 20px;
+
+
+        }
+        .omnifood-footer   a{
+        color: #7a7979;
+        text-decoration: none;
+
+
+        }
+        .omnifood-footer .footer-logos p{
+            font-size: 13px;
+            line-height: 1.5;
+
+        }
+        .omnifood-footer li{
+            list-style:  none;
+            margin-bottom: 1rem;
+        }
+        .omnifood-footer .copyright{
+            font-size: 10px;
+        }
+        .omnifood-footer .contact-us p{
+            margin: 2rem 0 1rem 0;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .omnifood-footer .contact-us .phone-num{
+            margin-bottom: 0.5rem !important;
+        }
+        .omnifood-footer h1{
+            margin-bottom: 2rem;
+        }
+
+
+        @media screen and (max-width: 800px) {
+            .main-div{
+                grid-template-columns: 1fr !important;
+                row-gap: 50px;
+             
+            } 
+            .how{
+                grid-template-columns: 1fr !important;
+            }
+            header .head nav{
+             display: none;
+            
+            }
+            
+            .head  .fa-solid{
+             display: block;
+             font-size: 25px;
+            }
+            
+             .left-side h1{
+                 font-size: 2.23rem !important;
+             }
+             .left-side .text{
+             font-size: 1.1rem !important;
+             margin-bottom: 2.5rem !important;
+             }
+             .btn{
+                 padding: 10px !important;
+             }
+             .logos img{
+                 height: 1rem !important;
+                 
+             }
+             .logos{
+                 margin: 0 !important;
+             }
+             .h1-dose{
+                 font-size: 27px !important;
+             }
+             
+            .how .step {
+                 font-size: 70px !important ;
+             }
+             .step-text{
+                 font-size: 0.8rem !important;
+             }
+             .step-title{
+                 font-size: 1.4rem !important;
+             }
+             .step01{
+                 order: 2;
+ 
+             }
+             .step-img1{
+                 order: 1;
+             }
+             .step02{
+                 order: 4;
+ 
+             }
+             .step-img2{
+                 order: 3;
+             }
+             .step03{
+                 order: 6;
+ 
+             }
+             .step-img3{
+                 order: 5;
+             }
+             .how{
+                 row-gap: 0 !important;
+             }
+             .meal-body{
+                 grid-template-columns: 1fr !important;
+                 row-gap: 40px !important;
+             }
+                      
+             .diet h1{
+                 font-size: 25px !important
+             }
+             .diet li{
+                 font-size: 15px !important;
+             }
+             .testimonials{
+                 grid-template-columns: 1fr !important;
+             }
+             .testimonials .test{
+                 grid-template-columns: 1fr !important;
+             }
+             .testimonials .gallery{
+                 grid-template-columns: repeat(4,1fr) !important;
+             }
+             .testimonials h1{
+                 font-size: 27px !important;
+             }
+             .testimonials .message{
+                 font-size: 15px !important;
+             }
+             .pricing{
+                 grid-template-columns: 1fr !important;
+             }
+             .pricing .starter{
+                 width: 100% !important;
+                 margin-left: 0 !important;
+             }
+             .pricing-foot .block{
+                 grid-template-columns: 1fr !important;
+                 display: block !important;
+             }
+             .get-meal .contact{
+                 grid-template-columns: 1fr !important;
+             }
+             .get-meal .get{
+                 grid-template-columns: 1fr !important;
+             }
+ 
+             .omnifood-footer{
+                 grid-template-columns: 1fr 1fr!important;
+                 padding: 2rem !important ;
+             }
+             .omnifood-footer .media-logos{
+                 grid-template-columns: 0.5fr 0.5fr 1.5fr !important;
+ 
+             }
+             .footer-logos{
+                 order: 1;
+             }
+         }
+ 
+ 
+         @media screen and (max-width: 500px) {
+             .get-meal .get-text{
+                 padding-left: 2rem !important;
+             }
+             .get-meal .get{
+                 width: 98% !important;
+             }
+             .omnifood-footer{
+                 padding: 1rem !important;
+                 font-size: 10px!important;
+             }
+         }
